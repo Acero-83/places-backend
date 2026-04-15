@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<architect-project version="1.0" appversion="1.0.9">
+ <project-name>Modelo</project-name>
+ <print-settings numCopies="1" zoom="1.0" pageNumbersPrinted="true" orientation="1" paperWidth="612.0" paperHeight="792.0" leftBorder="50.0" rightBorder="50.0" topBorder="50.0" bottomBorder="50.0" />
+ <project-data-sources>
+  <data-source id="DS0">
+   <property key="Logical" value="PlayPen Database" />
+  </data-source>
+  <data-source id="DS2">
+   <property key="Connection Type" value="HSQLDB" />
+   <property key="Logical" value="Fake_infocal" />
+   <property key="JDBC URL" value="jdbc:hsqldb::;shutdown=true" />
+   <property key="UID" value="" />
+   <property key="PWD" value="" />
+   <property key="ca.sqlpower.architect.etl.kettle.database" value="" />
+   <property key="ca.sqlpower.architect.etl.kettle.port" value="" />
+   <property key="ca.sqlpower.architect.etl.kettle.hostname" value="" />
+   <property key="ca.sqlpower.architect.etl.kettle.repos.login" value="" />
+   <property key="ca.sqlpower.architect.etl.kettle.repos.password" value="" />
+  </data-source>
+ </project-data-sources>
+ <source-databases>
+  <database id="DB0" populated="true" UUID="4026fc24-696a-4a60-bc9e-c5e7ec00ecbc" dbcs-ref="DS2" name="Fake_infocal" physicalName="Fake_infocal" sql-exception="ca.sqlpower.sqlobject.SQLObjectException: Couldn&apos;t connect to database: JDBC Driver &quot;org.hsqldb.jdbcDriver&quot; not found." >
+   <relationships>
+   </relationships>
+  </database>
+ </source-databases>
+ <target-database id="ppdb" dbcs-ref="DS0">
+  <table id="TAB2" populated="true" UUID="61f7c049-40c6-4b44-985e-44647923352b" name="personas" objectType="TABLE" physicalName="personas" >
+   <remarks></remarks>
+   <folder id="FOLTAB21" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL3" populated="true" UUID="9f7f9f6e-e62d-462e-8e72-dfaf4c7ccc2f" autoIncrement="false" autoIncrementSequenceName="personas_id_persona_seq" defaultValue="" name="id_persona" nullable="0" physicalName="id_persona" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    <column id="COL4" populated="true" UUID="bf22af27-f4f0-4804-9c60-bda2fda2651d" autoIncrement="false" autoIncrementSequenceName="personas_nombres_seq" defaultValue="" name="nombres" nullable="0" physicalName="nombres" precision="100" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL5" populated="true" UUID="7f018095-959e-4a3f-b0bf-aefc2bbb3245" autoIncrement="false" autoIncrementSequenceName="personas_primer_apellido_seq" defaultValue="" name="primer_apellido" nullable="0" physicalName="primer_apellido" precision="100" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL6" populated="true" UUID="2b5e7c2d-a2de-4a71-aee8-3a35f1595764" autoIncrement="false" autoIncrementSequenceName="personas_ci_seq" defaultValue="" name="ci" nullable="0" physicalName="ci" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    <column id="COL7" populated="true" UUID="db2f678c-1fa2-4c29-9137-894502394f9e" autoIncrement="false" autoIncrementSequenceName="personas_fecha_nacimiento_seq" defaultValue="" name="fecha_nacimiento" nullable="0" physicalName="fecha_nacimiento" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="91" userDefinedTypeUUID="ee349be3-6af2-46e1-b305-975f5354b009" >
+     <remarks></remarks>
+    </column>
+    <column id="COL8" populated="true" UUID="78d7dd85-e32c-4b60-8712-d49bd4dfa2d9" autoIncrement="false" autoIncrementSequenceName="personas_genero_seq" defaultValue="" name="genero" nullable="0" physicalName="genero" precision="50" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL9" populated="true" UUID="c45597a9-4b15-4d3c-9005-24fc23d05e7c" autoIncrement="false" autoIncrementSequenceName="personas_telefono_fijo_seq" defaultValue="" name="telefono_fijo" nullable="1" physicalName="telefono_fijo" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    <column id="COL10" populated="true" UUID="cc5ce1e1-8232-4fc4-99e0-5ab85e4614f8" autoIncrement="false" autoIncrementSequenceName="personas_celular_seq" defaultValue="" name="celular" nullable="1" physicalName="celular" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    <column id="COL11" populated="true" UUID="df5e80ee-d554-48d6-9d81-80f0b736b824" autoIncrement="false" autoIncrementSequenceName="personas_segundo_apellido_seq" defaultValue="" name="segundo_apellido" nullable="1" physicalName="segundo_apellido" precision="100" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL12" populated="true" UUID="927e0a4b-b138-467a-958c-71bea935d846" autoIncrement="false" autoIncrementSequenceName="personas_complemento_ci_seq" defaultValue="" name="complemento_ci" nullable="1" physicalName="complemento_ci" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL13" populated="true" UUID="0c9511d8-30e7-4b59-89b0-a1ee4cf7b252" autoIncrement="false" autoIncrementSequenceName="personas_correo_electronico_seq" defaultValue="" name="correo_electronico" nullable="0" physicalName="correo_electronico" precision="100" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB23" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB22" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB24" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX14" populated="true" UUID="bae54bf3-5e17-40f1-ad80-95c3d74dc715" clustered="false" name="personas_pk" physicalName="personas_pk" primaryKeyIndex="true" unique="false" >
+     <index-column id="IDC15" populated="true" UUID="c41f1023-c703-4cab-8dab-6e0f419695bb" ascendingOrDescending="UNSPECIFIED" column-ref="COL3" name="id_persona" physicalName="id_persona" />
+    </index>
+   </folder>
+  </table>
+  <table id="TAB16" populated="true" UUID="eb3661a2-783a-4c9b-94d9-53a8ac6af1c6" name="usuarios" objectType="TABLE" physicalName="usuarios" >
+   <remarks></remarks>
+   <folder id="FOLTAB161" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL17" populated="true" UUID="fd3c4f95-7ac8-447b-ac05-d2858f1ca51d" autoIncrement="false" autoIncrementSequenceName="personas_id_persona_seq" defaultValue="" name="id_persona" nullable="0" physicalName="id_persona" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    <column id="COL18" populated="true" UUID="e7331597-6766-4c8b-87ab-4dd68a5f0240" autoIncrement="false" autoIncrementSequenceName="usuarios_usuario_seq" defaultValue="" name="usuario" nullable="0" physicalName="usuario" precision="50" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    <column id="COL19" populated="true" UUID="3bfe8f70-25ee-44c0-bcb2-a9fa7d6fc914" autoIncrement="false" autoIncrementSequenceName="usuarios_contrasena_seq" defaultValue="" name="contrasena" nullable="0" physicalName="contrasena" precision="200" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB163" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB162" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB164" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX20" populated="true" UUID="a4694638-916c-4f42-b657-c21d2418c464" clustered="false" name="usuarios_pk" physicalName="usuarios_pk" primaryKeyIndex="true" unique="false" >
+     <index-column id="IDC21" populated="true" UUID="de46b997-dd1c-4363-b4e9-747900c19287" ascendingOrDescending="UNSPECIFIED" column-ref="COL17" name="id_persona" physicalName="id_persona" />
+    </index>
+    <index id="IDX22" populated="true" UUID="c64aca8f-a429-43f1-aa07-da4a5563bc65" clustered="false" name="usuarios_idx" physicalName="usuarios_idx" primaryKeyIndex="false" unique="true" >
+     <index-column id="IDC23" populated="true" UUID="6b5a7456-3682-4df4-8c8e-3aef149b5905" ascendingOrDescending="UNSPECIFIED" column-ref="COL18" name="usuario" physicalName="usuario" />
+    </index>
+   </folder>
+  </table>
+  <relationships>
+   <relationship id="REL24" populated="true" UUID="fbe1f642-586f-4192-9521-8a4f522f7ef2" deferrability="7" deleteRule="3" fk-table-ref="TAB16" fkCardinality="7" identifying="true" name="personas_usuarios_fk" physicalName="personas_usuarios_fk" pk-table-ref="TAB2" pkCardinality="2" updateRule="3" >
+    <column-mapping id="CMP25" populated="true" UUID="bf21aa7f-8683-4b1b-9993-69e9b6aeffac" fk-column-ref="COL17" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL3" />
+   </relationship>
+  </relationships>
+ </target-database>
+ <ddl-generator type="ca.sqlpower.architect.ddl.GenericDDLGenerator" allow-connection="true"> </ddl-generator>
+ <liquibase-settings useSeparateChangeSets="false" generateId="false" idStart="1"/>
+ <create-kettle-job-settings filePath="" jobName="" schemaName="" kettleJoinType="0" savingToFile="true" />
+ <play-pen zoom="1.0" viewportX="0" viewportY="0" relationship-style="rectilinear" names-displayLogicalNames="true" showPrimaryTag="true" showForeignTag="true" showAlternateTag="true" columnVisibility="ALL" relationshipLabelVisibility="true">
+  <table-pane table-ref="TAB2" x="329" y="254" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB16" x="961" y="267" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-link relationship-ref="REL24" pkConnection="0.47540983606557374" fkConnection="0.5581395348837209" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="33"/>
+ </play-pen>
+ <critic-manager>
+  <critic-grouping platformType="Generic" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.PrimaryKeyCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.RelationshipMappingTypeCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.EmptyRelationshipCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.AlphaNumericNameCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.AlphaNumericSequenceNameCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SetDefaultOnColumnWithNoDefaultCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SetNullOnNonNullableColumnCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.DuplicateNameCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="DB2" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.DB2UnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="H2" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.H2UnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="HSQLDB" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.HSQLDBUnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="MySQL" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.MySQLCommentCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.MySQLReservedWordsCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.MySQLUnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="Oracle" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.OraclePhysicalNameCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.OracleReservedWordsCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.OracleUnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="PostgreSQL" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.PostgreSQLReservedWordsCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="SQL Server" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SQLServerUnsupportedFeaturesCritic" severity="ERROR"/>
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SQLServerReservedWordsCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="SQL Server 2000" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SQLServer2000UnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+  <critic-grouping platformType="SQL Server 2005" enabled="true">
+   <critic-settings class="ca.sqlpower.architect.ddl.critic.impl.SQLServer2005UnsupportedFeaturesCritic" severity="ERROR"/>
+  </critic-grouping>
+ </critic-manager>
+ <profiles topNCount="10">
+  </profiles>
+  <olap>
+  </olap>
+  <olap-gui>
+  </olap-gui>
+</architect-project>
