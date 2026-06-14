@@ -222,7 +222,7 @@
     <column id="COL57" populated="true" UUID="7edddbdb-d9f9-4f07-bd8f-188a24d3ba46" autoIncrement="false" autoIncrementSequenceName="fotos_url_seq" defaultValue="" name="url" nullable="0" physicalName="url" precision="300" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks></remarks>
     </column>
-    <column id="COL58" populated="true" UUID="a8c11dfa-e157-4c78-bbd0-aded41e6bb9f" autoIncrement="false" autoIncrementSequenceName="lugares_id_lugares_seq" defaultValue="" name="id_lugares" nullable="0" physicalName="id_lugares" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+    <column id="COL58" populated="true" UUID="a8c11dfa-e157-4c78-bbd0-aded41e6bb9f" autoIncrement="false" autoIncrementSequenceName="lugares_id_lugares_seq_1" defaultValue="" name="id_lugares" nullable="0" physicalName="id_lugares" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
      <remarks></remarks>
     </column>
     </folder>
@@ -257,7 +257,7 @@
     <column id="COL67" populated="true" UUID="701e1417-d31c-46c0-908f-440b5f6ec424" autoIncrement="false" autoIncrementSequenceName="comentarios_id_comentarios_seq_1" defaultValue="" name="id_comentarios" nullable="0" physicalName="id_comentarios_1" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
      <remarks></remarks>
     </column>
-    <column id="COL68" populated="true" UUID="a2bb88c6-3b80-4ae7-a7c8-334c5e0df930" autoIncrement="false" autoIncrementSequenceName="lugares_id_lugares_seq" defaultValue="" name="id_lugares" nullable="0" physicalName="id_lugares" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+    <column id="COL68" populated="true" UUID="a2bb88c6-3b80-4ae7-a7c8-334c5e0df930" autoIncrement="false" autoIncrementSequenceName="lugares_id_lugares_seq_2" defaultValue="" name="id_lugares" nullable="0" physicalName="id_lugares" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
      <remarks></remarks>
     </column>
     </folder>
@@ -277,7 +277,7 @@
     <column id="COL72" populated="true" UUID="10c9c710-3aef-4beb-8347-91c158ad0568" autoIncrement="false" autoIncrementSequenceName="personas_id_persona_seq_4" defaultValue="" name="id_persona" nullable="0" physicalName="id_persona" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
      <remarks></remarks>
     </column>
-    <column id="COL73" populated="true" UUID="1d11419d-2772-41a8-8c96-052462dcefd8" autoIncrement="false" autoIncrementSequenceName="lugares_id_lugares_seq" defaultValue="" name="id_lugares" nullable="0" physicalName="id_lugares" precision="0" primaryKeySeq="1" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+    <column id="COL73" populated="true" UUID="1d11419d-2772-41a8-8c96-052462dcefd8" autoIncrement="false" autoIncrementSequenceName="lugares_id_lugares_seq_3" defaultValue="" name="id_lugares" nullable="0" physicalName="id_lugares" precision="0" primaryKeySeq="1" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
      <remarks></remarks>
     </column>
     </folder>
@@ -295,7 +295,7 @@
   <table id="TAB77" populated="true" UUID="c0015f72-83d7-4d02-8204-1749d3f9dc8a" name="lugares" objectType="TABLE" physicalName="lugares" >
    <remarks></remarks>
    <folder id="FOLTAB771" populated="true" name="Columns" physicalName="Columns" type="1">
-    <column id="COL78" populated="true" UUID="ba869c9c-5d9c-4233-84e8-f3bcc8f381e2" autoIncrement="true" autoIncrementSequenceName="lugares_id_lugares_seq" defaultValue="" name="id_lugares" nullable="0" physicalName="id_lugares" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+    <column id="COL78" populated="true" UUID="ba869c9c-5d9c-4233-84e8-f3bcc8f381e2" autoIncrement="true" autoIncrementSequenceName="lugares_id_lugares_seq_4" defaultValue="" name="id_lugares" nullable="0" physicalName="id_lugares" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
      <remarks></remarks>
     </column>
     <column id="COL79" populated="true" UUID="15b1c619-8766-43a4-9e24-fd7ecd6cf62e" autoIncrement="false" autoIncrementSequenceName="lugares_nombre_seq" defaultValue="" name="nombre" nullable="0" physicalName="nombre" precision="200" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
